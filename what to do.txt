@@ -1,0 +1,35 @@
+what to do
+
+create an empty list called "tasks"
+
+define a function "add_task" that takes in a task description and adds it to the "tasks" list
+    input: task_description (string)
+    output: none
+
+    add task_description to the "tasks" list
+    print "Task added: ", task_description
+
+define a function "edit_task" that takes in a task index and new task description, and replaces the task in the specified index
+    input: task_index (int), new_task_description (string)
+    output: none
+
+    check if task_index is valid (i.e. within the range of the "tasks" list)
+        if not, print "Invalid task index" and return
+    replace the task at task_index with new_task_description
+    print "Task edited: ", new_task_description
+
+define a function "delete_task" that takes in a task index and removes the task from the list
+    input: task_index (int)
+    output: none
+
+    check if task_index is valid (i.e. within the range of the "tasks" list)
+        if not, print "Invalid task index" and return
+    remove the task at task_index from the "tasks" list
+    print "Task deleted"
+
+define a function "view_tasks" that prints all the tasks in the "tasks" list
+    input: none
+    output: none
+
+    for each task in the "tasks" list
+        print the task
